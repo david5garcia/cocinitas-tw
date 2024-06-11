@@ -1,0 +1,9 @@
+@layer utilities {
+  .participante__card {
+    @apply bg-white shadow-xl p-6 w-full sm:w-[90%] md:w-[45%] lg:w-[30%] text-center flex flex-col gap-4 rounded-lg;
+  }
+
+  .container__size {
+    @apply w-[90%] max-w-[1000px];
+  }
+}
